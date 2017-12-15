@@ -1,26 +1,20 @@
 import {StyleSheet} from 'react-native';
 
 let style = StyleSheet.create({
-  dateTouch: {
-    width: 142
-  },
+  dateTouch: {},
   dateTouchBody: {
     flexDirection: 'row',
     height: 40,
-    alignItems: 'center',
-    justifyContent: 'center'
   },
   dateIcon: {
+    alignSelf: 'center',
     width: 32,
     height: 32,
     marginLeft: 5,
     marginRight: 5
   },
   dateInput: {
-    flex: 1,
     height: 40,
-    borderWidth: 1,
-    borderColor: '#aaa',
     alignItems: 'center',
     justifyContent: 'center'
   },
